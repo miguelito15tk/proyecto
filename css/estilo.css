@@ -1,0 +1,128 @@
+html, body
+{
+	height: 100%;
+	background: #420921;
+}
+#big_wraper
+{
+	margin-left: auto; /*margen del lado izquierdo*/
+	margin-right: auto; /*margen del lado derecho*/
+	width: 900px; /*ancho del elemento*/
+	height: 100%; /*alto del elemento*/
+	background: #56B80E; /*color de fondo del elemto*/
+}
+
+h1
+{
+	color: #00FFFF;
+	text-align: center;
+}
+
+header
+{
+	width: 100%;
+	height: 120px;
+	border: #58DE07 solid;
+	position: relative;
+}
+
+img
+{
+	width: 100px;
+	height: 100px;
+	/* margin-left: auto; */
+	/* margin-right: 85%; */
+	/* padding: auto; */
+	/* border-radius: 8px; */
+	box-shadow: 10px 15px 35px 10px #643F70;/*horizont vertical sombra tamañoSombra ColorSombra*/
+	/* vertical-align: middle; */
+}
+
+#img1
+{
+	margin-left: auto;
+	margin-top: 0px;
+	float: auto;
+	position: relative;
+}
+#img2
+{
+	margin-left: auto;
+	margin-top: 0px;
+	float: auto;
+	position: relative;
+}
+
+#img3
+{
+	margin-left: auto;
+	margin-top: 0px;
+	float: auto;
+	position: relative;
+}
+
+#img4
+{
+	margin-left: auto;
+	margin-top: 0px;
+	float: auto;
+	position: relative;
+}
+
+
+footer
+{
+	background: #000000;
+	color:#FFFFFF;
+	margin: auto; /*MARGEN DEL ELEMENTO*/
+	padding: auto;
+	width: 100%;/*aNCHO DEL ELEMENTO*/
+	height: 200px; /*ALTO DEL ELEMENTO*/
+
+}
+.translate:hover
+{
+	-webkit-transform: translate(10px, 20px);/**/
+	   -moz-transform: translate(10px, 20px);
+	    -ms-transform: translate(10px, 20px);
+	     -o-transform: translate(10px, 20px);
+	        transform: translate(0px, -20px);
+}
+.rotate:hover
+{
+	-webkit-transform: rotate(150deg) 1seg;
+	   -moz-transform: rotate(150deg) 1seg;
+	    -ms-transform: rotate(150deg) 1seg;
+	     -o-transform: rotate(150deg) 1seg;
+	        transform: rotate(150deg) 1seg;
+}
+.scale:hover
+{
+	-webkit-transform: scale(1.05,1.05);
+	   -moz-transform: scale(1.05,1.05);
+	    -ms-transform: scale(1.05,1.05);
+	     -o-transform: scale(1.05,1.05);
+	        transform: scale(1.05,1.05);
+}
+.skew:hover
+{
+	-webkit-transform: skew(45deg);
+	   -moz-transform: skew(45deg);
+	    -ms-transform: skew(45deg);
+	     -o-transform: skew(45deg);
+	        transform: skew(45deg);
+}
+.transform:hover
+{
+	-webkit-transform: ;
+	   -moz-transform: ;
+	    -ms-transform: ;
+	     -o-transform: ;
+	        transform: ;
+}
+.rotate-skew-scale-translate:hover
+{
+    /*transform: scale(0.4) translate(-12em, 0) rotate(45deg);*/
+	transform-origin: top left; /*<!-- em, rem, %, px -->*/
+	transform: rotate(45deg);
+}
