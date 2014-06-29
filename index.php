@@ -50,13 +50,13 @@
 								height: "200px",
 								marginLeft: '10px',
 								opacity: 0.2
-							},2000, function(){
+							},3000, function(){
 								$("#img4").animate({
 										width: "200px",
 										height: "200px",
 										marginLeft: '1000px',
 										opacity: 0.2
-								},2000)
+								},4000)
 							});
 					});
 				});
